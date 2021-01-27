@@ -1,3 +1,11 @@
+.flag{
+  width: 500px;
+  height: 300px;
+  margin: 100px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px 5px lightgrey;
+}
+
 #germany *{ height: 100px;}
 
 #germany-black{ background-color: black; }
