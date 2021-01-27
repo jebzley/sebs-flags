@@ -1,9 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+body{
+  text-align: center;
+}
+header{
+  background: rgb(57, 184, 64);
+  height: 300px;
+  padding: 40px;
+  box-shadow: 5px 0 20px 4px grey;
+}
+#sticky-header{
+  position: sticky;
+  top: 40px;
+  font-size: 80px;
+  transition: all 0.4s ease;
+  color: white;
+}
+
+#sticky-header:hover{
+  transform: scale(4);
+}
+
+#fixed-img{
+  bottom: 0;
+  left: 200px;
+  position: fixed;
+  height: 300px;
+  width: auto;
+}
+
+
+main{
+  margin-top: 40px;
+  height: 1000px;
+  position: relative;
+}
+
 .flag{
   width: 500px;
   height: 300px;
   margin: 100px;
   border: 1px solid black;
   box-shadow: 5px 5px 5px 5px lightgrey;
+}
+
+#germany{
+  position:absolute;
+  left: 400px;
 }
 
 #germany *{ height: 100px;}
@@ -21,6 +67,9 @@
 #germany:hover #germany-yellow{ background-color: green; }
 
 #france{
+  position: absolute;
+  left: 800px;
+  top: 400px;
   display: flex;
   flex-direction: row;
 }
@@ -36,3 +85,8 @@
 #france:hover #france-blue{ background-color: green; }
 
 #france:hover #france-red{ background-color: orange; }
+
+footer{
+  background: rgb(57, 184, 64);
+  height: 750px;
+}
